@@ -16,8 +16,8 @@ function App() {
 
   return (
     <>
-      <div id='wrapper' className='flex items-center justify-center h-screen font-Mulish'>
-        <div id='phone' className='w-[400px] h-screen bg-[white] rounded-lg	px-4 py-4 overflow-auto'> 
+      <div id='wrapper' className='flex items-center justify-center font-Mulish h-screen '>
+        <div id='phone' className='w-[400px]  bg-[white] rounded-lg	px-4 py-4 h-[80%] lg:h-full overflow-auto'> 
           
           {/* <div id="Phone-space" className='border-2 p-1'>
             Mobile Space
@@ -80,3 +80,4 @@ function App() {
 }
 
 export default App
+
